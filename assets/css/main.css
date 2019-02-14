@@ -3079,12 +3079,23 @@ input, select, textarea {
 
 	body.is-preload #header:after {
 		opacity: 1;
-	}
+  }
+
+  body div.albums {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
 /* Footer */
 
+  #footer .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 2em 0 2em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -3093,6 +3104,12 @@ input, select, textarea {
 		background-size: auto,							cover,							cover;
 		text-align: center;
   }
+
+    #footer img {
+      width: 100px;
+      height: auto;
+      border-radius: 25px;
+    }
 
 		#footer a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
