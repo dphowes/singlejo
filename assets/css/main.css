@@ -2901,6 +2901,7 @@ input, select, textarea {
       border: 1px solid white;
       width: 100%;
       max-width: 600px;
+      height: 180px;
       padding: 0;
       margin: 0.75rem auto;
     }
@@ -2928,6 +2929,9 @@ input, select, textarea {
     .event .info {
       padding: 1rem;
       width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
 
       .event .info .title {
