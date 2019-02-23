@@ -2798,11 +2798,12 @@ input, select, textarea {
 		}
 
 		.main.style2 {
-			background-color: #538b96;
-			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
+      background-color: #ffffff;
+      color: rgba(255, 255, 255, 0.75);
+      background-attachment: fixed,							fixed,							fixed;
+      background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #538b96 25%, #d96149, #f9db7c 75%);
+      background-position: top left,						center center,					center center;
+      background-size: auto,							cover,							cover;
 		}
 
 			.main.style2 a {
@@ -3158,9 +3159,18 @@ input, select, textarea {
     justify-content: space-evenly;
   }
 
+    #footer .row .fbnc {
+      display: flex;
+      flex-direction: row;
+      color: black;
+      align-items: flex-end;
+      justify-content: center;
+      font-size: small;
+    }
+
 	#footer {
-		padding: 2em 0 2em 0 ;
-		background-color: #ffffff;
+    background-color: #ffffff;
+    padding: 1rem 4rem;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
     background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #538b96 25%, #d96149, #f9db7c 75%);
