@@ -3381,6 +3381,10 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
+    img.small-no {
+      display: none;
+    }
+
 		/* List */
 
 			ul.major-icons li {
@@ -3488,7 +3492,7 @@ input, select, textarea {
 
 			.main {
 				padding: 3em 1.5em 1em 1.5em ;
-			}
+      }
 
 		/* Header */
 
