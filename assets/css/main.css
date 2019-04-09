@@ -3169,7 +3169,7 @@ input, select, textarea {
 
   #footer .row {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: space-evenly;
   }
 
